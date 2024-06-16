@@ -1,0 +1,18 @@
+.tarif-card:hover .tarif-baslik a{
+    text-decoration-line: underline;
+}
+.tarif-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:1000px){.card-containerx{
+    grid-template-columns: repeat(3, 1fr) !important;
+}}
+
+@media (max-width:800px){.card-containerx{
+    grid-template-columns: repeat(2, 1fr) !important;
+}}
+
+@media (max-width:500px){.card-containerx{
+    grid-template-columns: repeat(1, 1fr) !important;
+}}

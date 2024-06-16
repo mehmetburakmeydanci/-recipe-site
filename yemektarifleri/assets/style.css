@@ -1,0 +1,271 @@
+  main{
+
+      margin: 10px 30px;
+  }
+      input:focus{
+      outline: none;
+  }
+  #password {
+      
+      text-decoration-line: none;
+  }
+  #password.invalid {
+      border-bottom: 3px solid red;
+  }
+  #password.valid {
+      border-bottom: 3px solid Lime;
+  }
+
+
+  *{
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+  }
+
+  .login-bg {
+    display: grid;
+    align-items: center;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  object-position: middle;
+
+  background: hsla(298, 86%, 50%, 1);
+
+  background: linear-gradient(45deg, hsla(298, 86%, 50%, 1) 0%, hsla(290, 92%, 44%, 1) 28%, hsla(281, 97%, 38%, 1) 52%, hsla(269, 100%, 32%, 1) 74%, hsla(245, 99%, 29%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(298, 86%, 50%, 1) 0%, hsla(290, 92%, 44%, 1) 28%, hsla(281, 97%, 38%, 1) 52%, hsla(269, 100%, 32%, 1) 74%, hsla(245, 99%, 29%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(298, 86%, 50%, 1) 0%, hsla(290, 92%, 44%, 1) 28%, hsla(281, 97%, 38%, 1) 52%, hsla(269, 100%, 32%, 1) 74%, hsla(245, 99%, 29%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E512EB", endColorstr="#B309D5", GradientType=1 );
+  }
+
+
+
+
+
+  .namesurname{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+  
+  #name, #surname{
+  background-color: #fafafa;
+  width: 48%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #a7a7a7;
+  color: #2f2f2f;
+  }
+
+
+  .password1,  .email1, .password2,  .email2, .username{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #bcbcbc;
+  color: #2f2f2f;
+  }
+
+  
+  input[type="password1"]{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #bcbcbc;
+  color: #2f2f2f;
+  }
+  ::placeholder{
+  font-size: 14px;
+  color: #6b6b6b;
+  }
+  input:focus{
+  border: 1px solid #000;
+  }
+  .yazi0, .yazi1, .yazi2{
+    font-size: 13px;
+  } 
+  .yazi1{
+    color: red;
+  }
+  .yazi2{
+    color: lime;
+    
+  }
+  .form-button{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #695acd;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 300ms;
+  }
+  .form-button:hover{
+  background-color: #5000a3;
+  }
+
+  .login-form{
+      margin-bottom: 120px;
+      vertical-align: middle;
+  }
+
+  form{
+      
+  border-radius: 0px 0px 8px 8px;
+  justify-content: center;  
+  padding: 15px 40px 40px 40px;
+  background-color: #fff;
+  margin: 0px 20px;
+  }
+  form h1{
+  text-align: center;
+  margin: 20px 0px 30px 0px; 
+  }
+  .chechbox{
+  font-size: 13px;
+  margin: 10px 0px;
+  }
+  .chechbox a{
+  text-decoration: none;
+  color: #1261ff;
+  }
+  .login{
+  text-align: center;
+  margin: 30px 0px;
+  opacity: 0.8;
+  transition: 300ms;
+
+  }
+  .login:hover{
+  opacity: 1;
+  }
+  .login a{
+  font-weight: 900;
+  text-decoration: none;
+  color: #695acd;
+  }
+
+
+
+    .cards {
+      
+      display: block;
+
+    }
+    .cards2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      display: none;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .card.active {
+      display: block;
+      
+    }
+    .trns{
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      position: relative;
+      margin: 0px 20px;
+      
+    }
+    .login-signup1{
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      color: #000000;
+      font-weight: 700;
+      border-radius: 8px 0px 0px 0px;
+      width: 100%;
+      max-width: 182px;
+      height: 50px;
+    }
+    .login-signup2{
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      color: #000000;
+      font-weight: 700;
+      border-radius: 0px 8px 0px 0px ;
+      width: 100%;
+      max-width: 178px;
+      height: 50px;
+    }
+    .scroll{
+      text-align: center;
+      color: rgba(255,255,255,.5);
+      background: rgba(255,255,255,0);
+      border-radius: 6px;
+      margin-bottom: 30px;
+      font-size: .8125rem;
+      font-weight: 500;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      z-index: 4;
+    }
+  
+    .material-symbols-outlined {
+      font-size: 65px !important;
+      text-align: center ;
+      display: block !important;
+      margin: 0px 0px 20px 0px;
+      opacity: 0.6;
+    }
+    .card {
+      position: relative;
+      height: 400px;
+      width: 100%;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .fa-regular{
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      color: #7b7b7bab;
+      margin: 20px 0px;
+    }
+    #usernameMessage{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 3px;
+    top: -8px;
+    position: relative;
+    }
+
+
+
+ 

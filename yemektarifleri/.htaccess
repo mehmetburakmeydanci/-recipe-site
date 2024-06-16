@@ -1,0 +1,9 @@
+RewriteEngine on
+ 
+
+RewriteRule ^([0-9a-zA-Z-_]+)$  tarif.php?url=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteCond $1 !^(css|js|images|inc|assets)

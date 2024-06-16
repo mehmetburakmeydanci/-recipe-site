@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+}
+.odemeform{
+    padding-top: 100px;
+}
+form{
+    background-color: #fafafa;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+
+}
+.inputz{
+    display: block;
+    width: calc(100% - 30px);
+    padding: 10px;
+    background-color: #1d1c1c00;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid #a7a7a733;
+    color: #1d1c1cc6;
+    max-width: 470px;
+
+    }
+    .inputz:hover{
+    border: 2px solid #a7a7a78e;
+    
+    }
+    .inputz:focus{
+    background-color: #8a8a8a07;
+    border: 2px solid #0084ff;
+    }
+    .inputz_sabit{
+        caret-color: #ff000000;
+        cursor: auto;
+    }
+
+    .form-button{
+        text-align: center;
+        height: 40px;
+        background-color: #695acd;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 300ms;
+        max-width: 500px;
+
+ 
+        }
+        .form-button:hover{
+        background-color: #5000a3;
+        }
+    
+    .table-div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+
+    }
+    .table{
+        max-width: 780px;
+        width: 100%;
+        text-align: center;
+    }
